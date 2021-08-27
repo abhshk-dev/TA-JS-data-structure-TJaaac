@@ -19,7 +19,7 @@ students[42]='The answer to the meaning of life'
 // 9. Using `console.log` print the value of key `42` from the `students` object
 console.log(students[42]);
 // 10. Check the length of object named `students`.
-
+console.log(students.length);
 // 11. Can you define a key of `let or var` in any object? Reason.
 // Yes , key of let and var can be defined in an object because keynames in object are basically strings.
 // 12. Delete the `isAdult` property from the object `students`. Also, print the object before or after deleting the property
