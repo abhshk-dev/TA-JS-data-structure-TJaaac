@@ -1,11 +1,33 @@
 // 1. Create an array named numbers and store 5 number values in it
-
+let numbers=[1,2,3,4,5];
 // 2. Calculate the sum of array items and print it to the console using console.log()
-
+let sum=0;
+for(let i=0;i<numbers.length;i++){
+    
+    sum=sum+numbers[i];
+    console.log(numbers[i]);
+}
+console.log(sum);
 // 3. Calculate the average of array items and print it to the console using console.log()
-
+let avg;
+for(let j=0;j<numbers.length;j++){
+    sum=sum+numbers[j];
+    
+}
+avg=sum/5;
+console.log(avg);
 // 4. Find the highest number in the array and print it to the console using console.log()
-
+let high;
+for(let i=0;i<numbers.length;i++){
+    if(numbers[i]<numbers[i+1]){
+        high=numbers[i+1];
+    }
+    else{
+        high=numbers[i];
+    }
+    
+}
+console.log(`highest number is ${high}`);
 // 5. Find the lowest number in the array and print it to the console using console.log()
 
 // 6. Find the even numbers in the array and print them to the console using console.log()
