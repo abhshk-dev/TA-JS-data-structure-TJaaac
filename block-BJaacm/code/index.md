@@ -7,7 +7,7 @@ let allBrothers = ['Robb', 'Ryan', 'John'];
 let brothersCopy = user.sibling;
 let usename = user.name;
 let newUser = user;
-![name](./memorymap.jpg)
+
 ```
 
 1. Memory representation
@@ -16,21 +16,21 @@ let newUser = user;
 - Take a photo/screenshot and add it to the folder `code`
 
 <!-- To add this image here use ![name](./hello.jpg) -->
-
+![name](./memorymap.jpeg);
 2. Answer the following with reason:
 
-- `user == newUser;` // output and reason
-- `user === newUser;`
-- `user.name === newUser.name;`
-- `user.name == newUser.name;`
-- `user.sibling == newUser.sibling;`
-- `user.sibling === newUser.sibling;`
-- `user.sibling == allBrothers;`
-- `user.sibling === allBrothers;`
-- `brothersCopy === allBrothers;`
-- `brothersCopy == allBrothers;`
-- `brothersCopy == user.sibling;`
-- `brothersCopy === user.sibling;`
-- `brothersCopy[0] === user.sibling[0];`
-- `brothersCopy[1] === user.sibling[1];`
-- `user.sibling[1] === newUser.sibling[1];`
+- `user == newUser;` // true
+- `user === newUser;`//true
+- `user.name === newUser.name;`//true,because both the variables refer to the same address in the memory where the object is stored.
+- `user.name == newUser.name;`//true,because both the variables refer to the same address in the memory where the object is stored.
+- `user.sibling == newUser.sibling;`//true
+- `user.sibling === newUser.sibling;`//true
+- `user.sibling == allBrothers;`//false
+- `user.sibling === allBrothers;`//false
+- `brothersCopy === allBrothers;`//false
+- `brothersCopy == allBrothers;`//false
+- `brothersCopy == user.sibling;`//true
+- `brothersCopy === user.sibling;`//true
+- `brothersCopy[0] === user.sibling[0];`//true
+- `brothersCopy[1] === user.sibling[1];`//true
+- `user.sibling[1] === newUser.sibling[1];`//true
