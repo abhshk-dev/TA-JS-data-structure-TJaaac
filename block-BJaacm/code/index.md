@@ -7,6 +7,7 @@ let allBrothers = ['Robb', 'Ryan', 'John'];
 let brothersCopy = user.sibling;
 let usename = user.name;
 let newUser = user;
+![name](./memorymap.jpg)
 ```
 
 1. Memory representation
