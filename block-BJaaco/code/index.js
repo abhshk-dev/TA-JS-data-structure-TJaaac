@@ -3,6 +3,15 @@ let numbers = [6, 8, 10, 12, 43, 56, 98];
 let userIds = [1230, 234, 1278, 984, 763, 900];
 
 // 1. Add all the values of numbers and userIds array into the new newly created array named `collection`
+let collection=[],add1,add2;
+for(let num of numbers){
+  for(let id of userIds){
+    collection.push(num+id);
+    id=id+1;
+    break;
+  }
+  
+}
 
 // 2. Add all the even numbers from both arrays numbers and userIds into a newly created array named `evenCollection`
 
