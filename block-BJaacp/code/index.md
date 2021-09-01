@@ -12,8 +12,8 @@ let arr2 = arr;
 Answer the following with reason after going through the above code:
 
 - `[10] === [10]`
-- What is the value of obj? // answer
-- `obj == newObj`
+- What is the value of obj? // obj={name:'Arya',surname:'Stark'}
+- `obj == newObj`//false
 - `obj === newObj`
 - `user === newObj`
 - `user == newObj`
