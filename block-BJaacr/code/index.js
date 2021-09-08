@@ -62,12 +62,29 @@ console.log(got.houses[0].people.length);
 console.log(got.houses[1].people.length);
 // 14. Add the name and size of people in an object like {Starks: 4, Lannisters: 6} and log the object
 let info={};
-info.Starks=got.houses[0].length;
-info.Lannisters=got.houses[1].length;
+info.Starks=got.houses[0].people.length;
+info.Lannisters=got.houses[1].people.length;
 // 15. Log the name of all the people of all the houses in got one by one
-
+console.log(got.houses[0].people[0].name);
+console.log(got.houses[0].people[1].name);
+console.log(got.houses[0].people[2].name);
+console.log(got.houses[0].people[3].name);
+console.log(got.houses[0].people[4].name);
+console.log(got.houses[0].people[5].name);
+console.log(got.houses[0].people[6].name);
+console.log(got.houses[0].people[7].name);
+console.log(got.houses[1].people[0].name);
+console.log(got.houses[1].people[1].name);
+console.log(got.houses[1].people[2].name);
+console.log(got.houses[1].people[3].name);
 // 16. Push all names into a new array named `allPeople` and log the value array.
-
+let allPeople=[];
+allPeople.push(got.houses[0].people[0].name);
+allPeople.push(got.houses[0].people[1].name);
+allPeople.push(got.houses[0].people[2].name);
+allPeople.push(got.houses[0].people[3].name);
+allPeople.push(got.houses[0].people[4].name);
+allPeople.push(got.houses[0].people[5].name);
 // 17. Log the value and length of `allPeople` array created above
 
 // 18. Push all descriptions into an array named `allDescription`
